@@ -6,11 +6,11 @@ void main(){
   int output = formula(number1, number2);       //(2+1) * -1;
   print("output is $output");
 
-  sayHello();
+  sayHello("Eugene");
 }
 int formula(int num1, int num2){
   return (num1 + num2) * -2;
 }
-void sayHello(){
-  print("HELLO!");
+void sayHello(String name){
+  print("HELLO! $name");
 }
